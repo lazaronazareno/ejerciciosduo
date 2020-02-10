@@ -1,10 +1,12 @@
+function banana () {
+let monkey1 = {name: "pepito"};
+let monkey2 = {name: "pepita", edad: 18};
 
-function pordos (lista) {
- let resultado=[];
-for (let i = 0 ; i < lista.length; i++) {
-    resultado[i] = i * 2  ;
-}
-console.log (resultado)
- 
+ if (monkey1.isPrototypeOf===monkey2.isPrototypeOf) {
+     console.log("twins");
+ } else {
+     console.log("fake");
+ }
 }
 
+lo intentamos elias, lazaro, ft ariel(?)
