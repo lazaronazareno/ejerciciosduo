@@ -1,10 +1,8 @@
+function daysleft () {
+  date = new Date();
+  prevmonth = 31
+let day = date.getDate() + prevmonth; 
+const year = 366;
+console.log (year-day)
 
-function pordos (lista) {
- let resultado=[];
-for (let i = 0 ; i < lista.length; i++) {
-    resultado[i] = i * 2  ;
 }
-console.log (resultado)
- 
-}
-
